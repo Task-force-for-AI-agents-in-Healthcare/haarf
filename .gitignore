@@ -53,3 +53,22 @@ wheels/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Keep PDFs in manuscript/ (they are deliverables)
+# but exclude LaTeX intermediates there
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
